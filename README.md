@@ -1,8 +1,8 @@
 # Notes
-This is my personal notes take with ![zettelkasten](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125) technique.
+This is my personal notes take with [zettelkasten](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125) technique.
 
 ## Support tool
-I use ![neuron](https://github.com/srid/neuron) in order to manage connections between notes
+I use [neuron](https://github.com/srid/neuron) in order to manage connections between notes
 
 ---
 ## Get notes
