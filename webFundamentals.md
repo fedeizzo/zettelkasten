@@ -1,7 +1,7 @@
 ---
 date: 2020-12-07T15:38
 tags:
-  - university/softwarengineering2/agile
+  - university/softwarengineering2
   - web
 ---
 

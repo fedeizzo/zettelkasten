@@ -12,4 +12,4 @@ Main concepts:
 * [[[agileDevel]]]
 * [[[test]]]
 
-[[[z:zettels?tag=university/softwarengineering2/*]]]
+[[z:zettels?tag=university/softwarengineering2/*&grouped&timeline]]
