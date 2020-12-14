@@ -5,6 +5,9 @@ This is my personal notes take with [zettelkasten](https://writingcooperative.co
 I use [neuron](https://github.com/srid/neuron) in order to manage connections between notes
 
 ---
+## Read notes
+In order to read my personal notes you have to go [here](https://fedeizzo.github.io/zettelkasten)
+
 ## Get notes
 The easiest way to get notes is through docker:
 
