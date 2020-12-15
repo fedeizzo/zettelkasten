@@ -6,7 +6,7 @@ I use [neuron](https://github.com/srid/neuron) in order to manage connections be
 
 ---
 ## Read notes
-In order to read my personal notes you have to go [here](https://fedeizzo.github.io/zettelkasten)
+In order to read my personal notes you have to go [here](https://fedeizzo.github.io/zettelkasten/)
 
 ## Get notes
 The easiest way to get notes is through docker:
