@@ -92,3 +92,7 @@ Examples of agile development are:
 
 * [[[scrumDevel]]]
 * [[[kanbanDevel]]]
+* Scrumban → a scrum with:
+    * visualization
+    * WIP limit
+    * workflow management
