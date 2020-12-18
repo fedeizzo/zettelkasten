@@ -57,6 +57,14 @@ Cyber security is based a lot on [[[cryptography]]] concepts.
 * what is RSA and for what is can be used?
 * what is Diffie-Hellman and for what it can be used? A possibile attack on it?
 * what is a one-way function? One used in RSA and one used in DH
+* what are the advantages and disadvantage of Symmetric and Asymmetric Cryptography?
+* how can PKC be used to sign messages? What is the role of hash functions?
+* what is a digital certificate and what are its main components?
+* what is the public key infrastructure and which are its main entities?
+* what is SSL/TLS? Where is it used?
+* how does the handshake protocol of TLS works? What is the role of DH technique?
+* what are the potential security problems of TLS?
 
 ## TODO list
 - [ ] in cybersec perspectives slides there is a reference to GDPR. Check if the content is the same inside GDPR and privacy slides
+- [ ] think to move CIE 3.0 from sslTLS zettel to a new one

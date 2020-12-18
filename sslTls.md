@@ -1,5 +1,5 @@
 ---
-date: 2020-12-12T14:31
+date: 2020-12-18T15:47
 tags:
   - university/introductionComputerNetworkSecurity
   - cryptography
@@ -118,4 +118,72 @@ In order to verify the certification during step 3 and 4 TLS verifies:
 3. expiry, activation dates and the validity period
 4. revocation status of the certificate
 
+#### TLS confidentiality
+TLS is based on asymmetric key for exchange operation in which the symmetric key and the symmetric algorithm is chosen. For this reason there is not the possibility to break the confidentiality.
+
+#### TLS integrity
+TLS provides data integrity by calculating a message digest. For this stage hash algorithm is used.
+
+### TLS vulnerabilities
+There are some vulnerabilities dues to backward compatibility and logical flaws. Three attacks on TLS are listed:
+
+* ***POODLE*** → based on a man-in-the-middle attack in which the hacker tells to the client he doesn't support TLS. At this point client propose SSL 3.0 and hacker forward message to the server that write back to the client "yes". Now hacker can use a SSL 3.0 vulnerability.
+* ***CRIME*** → manipulation of cookies in order to get some content from them.
+* ***HEARTBLEED*** → the client sends a heartbeat to the server with a payload that contain data and the size of data. Server responds with the same heartbeat request. If client sends an heartbeat with wrong size server responds filling the empty space with random data from server memory and it can contain credentials, sensitive information, etc.
+
+## TLS 1.3
+TLS 1.3 was born to remove some unsafe and unused features from previous version. It also improve security and performance maintaining a backward compatibility.
+
+### Faster handshake
+
+![TLS 1.3 handshake](./static/tls13Handshake.png)
+
+### Cipher suites
+Cipher suites was reduced from 319 to 5. It was also removed the possibility to perform "renegotiation". Renegotiation consist in a new exchange of parameters and keys for communication.
+
+### Forward secrecy
+Forward secrecy is a feature of specific key agreement protocols that ensure session keys will not be compromised even if long-term secrets used in the session key exchange are compromised. This is possibile because:
+
+* a new session key is generated every session a user initiates;
+* zero round-trip-time modality which set RTT to zero during handshake that ensure better site performance;
+* adoption of ephemeral Diffie-Hellman over RSA for keys exchange. An extension of the Diffie-Hellman method that uses different key for each connection[^epheral-DH].
+
+## CIE 3.0
+CIE is way to store personal information for different validity periods like:
+
+* name
+* surname
+* place and date of birth
+* residency
+* holder's picture
+* two fingerprints
+
+CIE supports NFC (Near Field Communication), a short range communication protocols. A NFC device can acta as electronic identity documents and keycards.
+CIE supports cryptography. Some of the algorithm are:
+
+* AES
+* SHA-2 or SHA-1
+* DH 2048 bits
+* Elliptic Curve DH 192 bits
+* RSA
+* X.509 certificate with personal data singed by official CA
+
+One scenario can be Authentication to on-line services by X.509 certificates
+
+![CIE sample](./static/cieSample.png)
+
+### Challenge response authentication
+Challenge response authentication is a family of protocols in which one party presents a question ("challenge") and another party must provide a valid answer ("response") to be authenticated.
+
+![Example](./static/challengeResponseAuthentication.png)
+
+This concept can be also extended to one time passwords as $2^{nd}$ factor authentication: generate an OTP by challenge-response mechanism. This contains:
+
+* code with a short expiration;
+* proofs of the possession of the OTP generator and/or of the device that received it;
+* optionally proofs the knowledge of the PIN used to activate the OTP generator.
+
+![CIE second factor](./static/cieSecondFactor.png)
+
 [^cipher suite]: A cipher suite is a set of algorithms that help secure a network connection that uses TLS. It includes key exchange algorithm, bulk encryption algorithm and a message authentication code (MAC) algorithm. It can also include signatures and an authentication algorithm to help authenticate the server or the client.
+[^epheral-DH]: Ephemeral Diffie-Hellman differs from the standard (static) DH because standard one use always the same private keys. For this reason the shared secret key is always the same. Ephemeral generates new key for every connection and thus the same key is never used twice. Mainly for this reason authentication can't be provided by Ephemeral DH, another mechanism must be used: TLS server signs the content of its server key exchange message that contains the ephemeral public key.
