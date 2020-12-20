@@ -122,7 +122,7 @@ An example could be:
 * **IDEA** → compute $h(x)$ and store result in a secure place
 * **VERIFICATION** → anytime is possible to recompute $h(x)$ and check the result with the result stored in a secure place, if the outputs are different something was compromised
 
-[^auth]: you can read more about authentication in [[[ciaTrade]]] and [[[icns]]]
+[^auth]: you can read more about authentication in [[[ciaTrade]]] and [[[icns]]] and [[[authentication]]]
 [^non-repudiation]: you can read more about non-repudiation in [[[ciaTrade]]] and [[[icns]]]
 [^integrity]: you can read more about integrity in [[[ciaTrade]]] and [[[icns]]]
 [^digitalCert]: you can read more about digital certificates in [[[sslTls]]]

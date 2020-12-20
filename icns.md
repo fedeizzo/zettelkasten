@@ -64,7 +64,17 @@ Cyber security is based a lot on [[[cryptography]]] concepts.
 * what is SSL/TLS? Where is it used?
 * how does the handshake protocol of TLS works? What is the role of DH technique?
 * what are the potential security problems of TLS?
+* what are the goals of saml?
+* what is the structure of a SAML assertion?
+* what is a SAML profile? give an example
+* what is the difference between IdP-Initiated and SP-Initiated Web SSO?
+* what is the flow of an IdP-Initiated Web SSO?
+* what is the flow of an SP-Initiated Web SSO?
+* what are the main security concerns underlying the deployment of SAML? What are the main mitigations measures?
+* what is SPID? What is eIDAS? Is there a relationship between the two?
+* Give an example of scenario in which eIDAS is useful
 
 ## TODO list
 - [ ] in cybersec perspectives slides there is a reference to GDPR. Check if the content is the same inside GDPR and privacy slides
 - [ ] think to move CIE 3.0 from sslTLS zettel to a new one
+- [ ] write better SAML part
