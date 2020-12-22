@@ -73,6 +73,17 @@ Cyber security is based a lot on [[[cryptography]]] concepts.
 * what are the main security concerns underlying the deployment of SAML? What are the main mitigations measures?
 * what is SPID? What is eIDAS? Is there a relationship between the two?
 * Give an example of scenario in which eIDAS is useful
+* what is access control and what is its basic architecture
+* what is an access control matrix? ACLs? Capabilities?
+* what is DAC?
+* what is MAC? define no read up and no write down properties
+* what are the differences, advantages and disadvantages of DAC and MAC?
+* what is RBAC? how does it simplify administration?
+* define principle of least priviledge
+* what is the confused deputy?
+* what is a trojan?
+* what is a covert channel?
+* how access control can mitigare command injection attacks?
 
 ## TODO list
 - [ ] in cybersec perspectives slides there is a reference to GDPR. Check if the content is the same inside GDPR and privacy slides
