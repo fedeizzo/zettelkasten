@@ -84,6 +84,11 @@ Cyber security is based a lot on [[[cryptography]]] concepts.
 * what is a trojan?
 * what is a covert channel?
 * how access control can mitigare command injection attacks?
+* what is a problem solved by OAuth? Which entities are in involved?
+* what is an OAuth token? Is it opaque for which entity involved in OAuth?
+* what is ABAC? What is ABAC policy? What are the advantages of ABAC over RBAC?
+* what is XACML? What is a XACML target, effect, condition, rule policy and policy set? What are the XACML policy combining algorithms?
+* describe the XACML architecture
 
 ## TODO list
 - [ ] in cybersec perspectives slides there is a reference to GDPR. Check if the content is the same inside GDPR and privacy slides

@@ -196,6 +196,81 @@ The main pros and cons are:
 |Easy to mange in principle|Role meaning is fuzzy|
 |Easy to tell through roles which permissions a subject has and way||
 
+### ABAC
+With a DAC or MAC the complexity grown according the subjects and objects numbers grow. For large number of subjects and objects, the number of authorizations may become very large
+
+![Dac mac problems](./static/dacMacProblems.png)
+
+RBAC resolves these problems using roles. The complexity goes from O(m*n) to O(m+n).
+
+![](./static/rbacOverDacMac.png)
+
+But there is also a problem with RBAC, roles may not be enough for easily expressing authorization conditions.
+
+To solve this problem **Attribute Based Access Control (ABAC)** was invented. ABAC defines authorization that express conditions on properties of both the resource and subject. The main strengths points are:
+
+* flexibility and expressive power;
+* possibility to combine different patterns of authorization conditions in a natural way;
+* possibility to consider authorization conditions depending on environment attributes.
+
+The three different attribute types are:
+
+* user attributes
+* attributes associated with the resource to be accessed
+* environment conditions
+
+![ABAC Model](./static/abacModel.png)
+
+In ABAC subjects, objects and environment are associated with attributes and authorization is expressed as conditions on these attributes.
+
+#### Policy
+Policies are a set of rules that govern allowable behavior within organization. They are based on the privileges of subjects, objects and environments. Typically written from the perspective of the object that needs protection and the privileges available to subjects.
+
+#### Attributes
+Attributes are applied to different fields:
+
+* subject → a subject is an active entity that causes information to flow among objects or changes the system state. Identity and characteristics are defined by attributes: name, organization, job title, etc.;
+* object → an object is a passive information system-related entity containing or receiving information. Access control can take vantage by attributes defined on an object: title, author, date of creation;
+* environment → describe the operational, technical, and even situational environment or context in which the information access occurs: current date, current virus/hacker activities, network security level.
+
+#### XACML
+XACML stands for extensible access control markup language. It is used to define ABAC policies for data sharing across different organizational domains (in reality it can be used to specify more than simple policies, for example decisions and requests).
+
+The main components are:
+
+1. XACML policy language → specify access contro rules + algorithms for combining policies;
+2. XACML requests/response protocol → used to query a decision engine that evaluates user access requests against policies. It is composed by attributes of subject, resource, action and environment which is stored inside Policy Information Point (**PIP**);
+3. XACML reference architecture → for deployment of software modules to house policies and attributes and compute and enforce control decisions.
+
+Main entities involved in XACML are:
+
+* **resource** → data or system component needing protection;
+* **subject** → an actor who requests access to specific resources;
+* **action** → an operation on a resource;
+* **environment** → properties not belonging to resources, subjects or actions that are important for authorization decisions;
+* **attributes** → characteristics of the resource, subject, action or the environment;
+* **target** → defines conditions that determinate whether policy applies to the request.
+
+![](./static/xacmlPolicyStructure.png)
+
+As explained in figure above XACML policies are structured as *PolicySets*. Policy may contains:
+
+* Other policies.
+* Other PolicySets.
+
+Policies are composed by rules. They are composed as set of boolean conditions that can be evaluated as true/false or indeterminate. Multiple rules can be combined with combining algorithm, the more common are:
+
+* Deny overrides → AND operation on permit;
+* Permit overrides → OR operation on permit;
+* First applicable → result is the result of the first decision;
+* Only one applicable → if more than one decision applies, then the result is Indeterminate.
+
+Finally target defines a boolean condition:
+
+* if true, the request gets evaluated by a **PDP**;
+* if false, the decision is **Not Applicable**.
+
+Another important concept is obligation. An obligation describes what must be carried out before or after an access request is approved and denied.
 
 [^trojan]: Resource R only readable by Alice. Bob induces Alice to run a trojan that can read R and copy information to R' readable by Bob. Bob can rad R' and thus also the information in R.
 [^domination]: $(S1, N1)$ dominates $(S2, N2)$ if and only if: $S1 \ge S2 \land N1 \supseteq N2$
