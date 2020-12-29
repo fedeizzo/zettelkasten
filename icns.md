@@ -89,6 +89,14 @@ Cyber security is based a lot on [[[cryptography]]] concepts.
 * what is ABAC? What is ABAC policy? What are the advantages of ABAC over RBAC?
 * what is XACML? What is a XACML target, effect, condition, rule policy and policy set? What are the XACML policy combining algorithms?
 * describe the XACML architecture
+* what is web application security?
+* for which kind of security threats found in web applications, TLS is not an adequate countermeasures?
+* which kind of attackers threaten web applications?
+* what is an injection attacks, give at least two examples of such an attack
+* what is CSRF attack? Give a high level description of how to mount it
+* what is XSS attack? Give a high level description of how to mount it
+* what is a Phishing attack? Give a high level description how to mount it
+* what are the main mitigation measures for injection attacks? And for CSRF attacks? And for XSS attacks? And for Phishing attacks?
 
 ## TODO list
 - [ ] in cybersec perspectives slides there is a reference to GDPR. Check if the content is the same inside GDPR and privacy slides
