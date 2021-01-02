@@ -10,7 +10,7 @@ tags:
 Risk is the possibility that a particular security threat will exploit a system vulnerability.
 Risk also highlight the impact over the system which is attacked through the exploit and the likelihood of occurrences. We can measure the risk analyzing loss of confidentiality, integrity or availability.
 
-![Risk Table](./static/riskTable.png)
+![Risk Table](./static/riskTable.png){.ui .image .centered}
 
 ## Vulnerability
 A vulnerability is a weakness in an system that could be exploited or triggered by a threat source, an exploitation, a misuse or through system security policy violation.
@@ -47,3 +47,6 @@ A circumstance or event with the potential to adversely impact over a system via
     * medical devices
     * smart vehicles
     * internet of things
+
+## Risk evaluation
+Risk evaluation related to privacy is explained here: [[riskEvaluation]]

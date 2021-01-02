@@ -97,8 +97,14 @@ Cyber security is based a lot on [[[cryptography]]] concepts.
 * what is XSS attack? Give a high level description of how to mount it
 * what is a Phishing attack? Give a high level description how to mount it
 * what are the main mitigation measures for injection attacks? And for CSRF attacks? And for XSS attacks? And for Phishing attacks?
+* what is the likelihood of an event? What is the impact of an event? What is the risk of an event? What is the risk matrix?
+* define the notion of privacy. What is k-anonimity?
+* what is data protection? What is LINDDUN?
+* what is the scope of application of the GDPR? Who is the data controller? Who is the data processor? What is the Data Protection Impact Assessment? Why does the GDPR propose a risk-based to data protection?
+* what is the difference between the risk evaluated for an organization and the risk of a data processing activity in the GDPR?
 
 ## TODO list
 - [ ] in cybersec perspectives slides there is a reference to GDPR. Check if the content is the same inside GDPR and privacy slides
 - [ ] think to move CIE 3.0 from sslTLS zettel to a new one
 - [ ] write better SAML part
+- [ ] move authentication topics in specific zettel (SSO, SAML, SPID, EII)

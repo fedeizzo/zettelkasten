@@ -3,10 +3,18 @@ date: 2020-12-06T21:02
 ---
 
 # Zettelkasten
+
+## About me
+![](./static/FedericoIzzo.jpg){.ui .image .right .floated .tiny .avatar}
+
+Hi, my name is Federico Izzo. I'm currently attending [University of Trento](https://www.unitn.it/) for the Bachelor's degree in Computer Science. I'm working as *junior researcher* at DSIP for [FBK](https://www.fbk.eu/).
+
 My personal notes taken with Zettelkasten:
 
-* [[[university]]]
+* [[[icns]]]
 * [[[nixOS]]]
+* [[[softwareEngineering2]]]
+* [[[zettelsTodo]]]
 
 ## Syntax
 Neuron zettel uses markdown github flavour with some special things [[[syntax]]]
