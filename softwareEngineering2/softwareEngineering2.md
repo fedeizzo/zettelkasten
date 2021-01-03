@@ -13,4 +13,4 @@ Main concepts:
 * [[[test]]]
 * [[[mongoDb]]]
 
-[[z:zettels?tag=university/softwarengineering2/*&grouped&timeline]]
+[[z:zettels?tag=university/softwarengineering2/**&grouped&timeline]]
