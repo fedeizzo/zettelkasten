@@ -1,7 +1,7 @@
 ---
 date: 2020-12-20T15:16
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/authentication
   - cryptography
   - authentication
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2021-01-02T21:34
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/authentication
   - cryptography
   - authentication
   - saml

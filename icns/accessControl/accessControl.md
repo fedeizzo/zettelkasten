@@ -1,7 +1,7 @@
 ---
 date: 2020-12-22T10:05
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/access-control
   - access-control
 ---
 

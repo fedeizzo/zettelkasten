@@ -1,7 +1,7 @@
 ---
 date: 2020-12-26T21:32
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/access-control
   - access-control
   - oauth-2.0
 ---
