@@ -6,16 +6,16 @@ tags:
 ---
 
 # CIA trade
+![CIA](./static/ciaTrade.png){.ui .image .small .floated .right}
+
 CIA trade is a trade composed by:
 
 * ***confidentiality*** → prevent unauthorized disclosure of information;
 * ***integrity*** → prevent unauthorized modification of information;
 * ***availability*** → prevent unauthorized withholding of information or resources.
 
-![CIA](./static/ciaTrade.png)
-
 ### Confidentiality
-Confidentiality also means protecting personal privacy and proprietary informations. Its goal is to cover all the process form data storage to data processing and finally to the transit over the network.
+Confidentiality also means protecting personal [[privacy]] and proprietary informations. Its goal is to cover all the process form data storage to data processing and finally to the transit over the network.
 
 So preserving authorized restrictions on information access and disclosure is strictly related to preserve personal privacy and proprietary informations.
 

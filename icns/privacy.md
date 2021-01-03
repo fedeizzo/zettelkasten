@@ -36,7 +36,7 @@ There are multiples possible implementations:
 * [[[cryptography]]] or ***Encryption*** → usually block ciphers like the AES[^AES]. They are used to encrypt an identifier using a secret key, which is both the pseudonymisation and recovery secret.
 
 ## SAML privacy
-SAML supports privacy thought persistent pseudonyms established between an identity and a service provider and one-time or transient identifiers that ensure a stateless concept like http[^http]. These two features are available thanks to an individual local and federated user identities shared between participants.
+[[saml]] supports privacy thought persistent pseudonyms established between an identity and a service provider and one-time or transient identifiers that ensure a stateless concept like http[^http]. These two features are available thanks to an individual local and federated user identities shared between participants.
 
 Without SAML privacy is not ensured when the service provider and the identity provider communicate.
 

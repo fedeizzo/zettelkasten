@@ -7,7 +7,7 @@ tags:
 ---
 
 # Risk evaluation
-Risk evaluation is based on **measure**, concrete and objective attribute, and **metric**, abstract and somewhat subjective attribute. Metrics can be approximated using a collection of measures. The simplest way to obtain they is: 
+Risk evaluation is based on **measure**, concrete and objective attribute, and **metric**, abstract and somewhat subjective attribute. Metrics can be approximated using a collection of measures. The simplest way to obtain them is: 
 
 1. select metrics
 2. determine what measures can support selected metrics

@@ -125,7 +125,7 @@ Inside SAML standard there are other mechanisms:
 * response message containing an assertion is delivered to relying party via a user's web browser, message integrity is required → digital sign using XML signature recommended
 
 ## Privacy
-In SAML privacy is related to two concepts:
+In SAML [[privacy]] is related to two concepts:
 
 * user's ability to control how their identity data is shared and used;
 * mechanisms that inhibit their actions at multiple service providers from being inappropriately correlated.
