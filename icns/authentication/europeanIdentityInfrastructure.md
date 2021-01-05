@@ -20,9 +20,9 @@ In the following example an Italian citizen wants to authenticate against a Germ
 
 The communication between the two eIDAS relies on SAML.
 
-![EID example](./static/eidExample.png)
+![EID example](./static/eidExample.png){.ui .image .centered}
 
-![EID example 2](./static/eidExample2.png)
+![EID example 2](./static/eidExample2.png){.ui .image .centered}
 
 ## Vulnerability
 European commission has provided the eIDAS-Node Integration Package in order to allow each member state to provide its own eIDAS-Node. A vulnerability was found, an attacker can send a manipulated SAML response to an eIDAS-Connector to authenticate as anybody.

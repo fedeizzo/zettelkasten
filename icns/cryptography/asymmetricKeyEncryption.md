@@ -1,5 +1,5 @@
 ---
-date: 2020-12-12T10:44
+date: 2021-01-04T09:02
 tags:
   - university/introductionComputerNetworkSecurity
   - cryptography
@@ -34,62 +34,12 @@ Two keys must be not related, so the knowledge of one does not involve the knowl
 
 ![Process](./static/signedMessage.png)
 
-## RSA (Rivest, Shamir, Adleman)
-RSA is based on mathematical trick that is easy to compute products compared to computing factorizations. It is used widely for key exchange, digital signatures or encryption of small blocks of data.
+## Implementations
 
-RSA uses variable size encryption block and variable size key. Public and private keys are built from a very large number calculated from the product of two primes (from 100 to 200 digits).
+* [[[rsa]]]
+* [[[dh]]]
 
-### Factorization
-Let $p$ and $q$ to large primes. Let $N=p*q$ be the modules. Choose a relatively prime to $(p-1)*(q-1)$ and find $d$ from $e*d=1\ mod\ (p-1)(q-1)$. Public key an private key are respectively:
-
-* $(N,e)$
-* $d$
-
-To encrypt plaintext $0<M<N$:
-$$
-C=M^e mod\ N
-$$
-To decrypt cipherText $C$:
-$$
-M=C^d mod\ N
-$$
-because
-$$
-C^d mod\ N=(M^e mod\ N)^d mod\ N=M^{e*d} mod\ N=M mod\ N=M
-$$
-in which N and e is public.
-
-### Vulnerability
-In early 2012 a vulnerability over RSA was discovered. It involves key generation including 1024 and 2048 bits length. This vulnerability needs only public key and from that is possible to get the private one. The problem that can insorge are:
-
-* private key can be misused for impersonation of legitimate owner, decryption of sensitive messages, forgery of signatures and other related attacks;
-* currently confirmed number of vulnerabilities keys found is about 760.000 but possibly up to two to three magnitudes more and vulnerable.
-
-## DH (Diffie-Hellman)
-DH was invented after RSA and now it is used for secret-key key exchange only, not for authentication or digital signatures. The mathematical trick on which DH rely is the simplicity of computing exponents over computing discrete logarithms.
-
-### Math
-Finite field $F=GF(p)=\ integers\ modulo\ p$. At this point exponential is the one way function easy to compute:
-$$
-x \to g^x (mod\ p)
-$$
-Instead, the difficult one is **Discrete Logarithm Problem (DLP)**. Given $p,g,X$ find the discrete logarithm $x$ so that
-$$
-X = g^x mod\ p
-$$
-where $p$ is prime and $g$ is a generator.
-
-![Dh math](./static/dhMath.png)
-
-### Security
-Security of *DH* depends on the difficult of *DLP*. *DH* is a key agreement protocol: assuming that *DHP* is difficult, an attacker observing the messages exchanged does not learn the key.
-
-Another important point is that *DH* does not provide authentication[^auth], parties do not know whom they are establishing a key with. For this reason **Man-In-The-Middle** (MITM) can be used.
-
-![MITM](./static/mitm.png)
-
----
-
+## Pros and cons
 Principal pros of Public Key Crypto are:
 
 * private key is only known by the owner;
@@ -104,6 +54,7 @@ Principal cons are:
 
 In order to mitigate the cons a digital signature can be used. A data item that vouches the origin and the integrity of the message. But the use of digital signature introduce a new problem: who guarantees that the one using the key is entitled to do so? This can be solved using digital certificates[^digitalCert]
 
+## Summary
 A good summary image that reflect an use-case in real life is:
 
 ![Use case](./static/useCaseAsymmetric.png)

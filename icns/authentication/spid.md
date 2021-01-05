@@ -11,7 +11,7 @@ tags:
 # SPID
 SPID means *Sistema Pubblico Identità Digitale*, it is based on SAML 2.0
 
-![SPID](./static/spid.png)
+![SPID](./static/spid.png){.ui .image .centered}
 
 In this system Identity providers are private and there are different type of assurance levels:
 

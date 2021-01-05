@@ -8,7 +8,7 @@ tags:
 ---
 
 # SAML
-SAML stands for *Security Assertion Markup Language*. It is a common language and flow between systems that want to provide an SSO experience users.
+SAML stands for *Security Assertion Markup Language*. It is a common language and flow between systems that want to provide an [[sso]] user experience.
 Data format uses an XML like format and can be:
 
 * authentication data
@@ -36,10 +36,12 @@ A possible scenario can be:
 4. she visits car rental website;
 5. now Alice can rent a car without signing in again because authentication has been communicate between sites.
 
-![SSO scenario](./static/ssoScenario.png)
+![SSO scenario](./static/ssoScenario.png){.ui .image .centered}
 
 ## Authentication flow
 SAML authentication flow can be summarized as follow:
+
+![SAML authentication flow](./static/samlAuthenticationFlow.png){.ui .image .floated .right}
 
 1. user wants to access an **SP**;
 2. user is redirected to a **discovery service** (internal or external, user's choice **IdP**);
@@ -47,9 +49,6 @@ SAML authentication flow can be summarized as follow:
 4. user is redirected to the **IdP**;
 5. authentication is performed by the user;
 6. user goes back to the **SP** with the authentication.
-
-![SAML authentication flow](./static/samlAuthenticationFlow.png)
-
 
 ## Internal structure
 The internal structure of SAML is composed by:
@@ -62,21 +61,21 @@ The internal structure of SAML is composed by:
     * ***bindings*** → mechanism used to transport messages between requesters and responders.
     * ***protocols*** → flow of assertions query and request for obtaining SAML assertions.
     * ***assertions*** → set of statements made by a SAML authority:
-        * authentication assertion → issed byu a party that authenticates users
-        * attribute assertion → id defines specifi details about he Subject
+        * authentication assertion → issued by a party that authenticates users
+        * attribute assertion → id defines specific details about he Subject
         * authorization assertion → it defines something the Subject is entitled to do
-* ***authentication context*** → indicates how a user authenticated at an Identity provider. Context is included from **IdP** during assertion after **SP** request. Can be used to set different levels of authentication.
+* ***authentication context*** → indicates how a user is authenticated at an Identity provider. Context is included from **IdP** during assertion after **SP** request. Can be used to set different levels of authentication.
 * ***metadata*** → document that describes the SAML deployment. Minimum content is:
     * Entity ID → unique identifier used in software configurations;
     * Cryptographic Keys → used to sign SAML messages;
     * Protocol Endpoints → used to verify encrypted signed message.
 
-![SAML structure](./static/samlStructure.png)
+![SAML structure](./static/samlStructure.png){.ui .image .centered}
 
 ### Web SSO profiles
 A possible SSO scenario can be:
 
-![SSO scenario 1](./static/ssoProfile_1.png)
+![SSO scenario 1](./static/ssoProfile_1.png){.ui .image .centered}
 
 1. user has login session at www.first.com;
 2. user move to www.second.com (assuming first and second has established previously a federal identity);
@@ -92,16 +91,16 @@ In details:
 5. browser issues an HTTP POST request to send a form to the **SP**'s Assertion Consumer Service;
 6. final access check to allow/deny user access to resource.
 
-![SSO scenario 1 details](./static/ssoProfileDetails_1.png)
+![SSO scenario 1 details](./static/ssoProfileDetails_1.png){.ui .image .centered}
 
 A second possibile SSO scenario ca be:
 
-![SSO scenario 2](./static/ssoProfile_2.png)
+![SSO scenario 2](./static/ssoProfile_2.png){.ui .image .centered}
 
 1. user is visiting an **SP** page that does not require authentication;
 2. user try to access a restricted resource;
 3. **SP** sends the user to the **IdP** with an authentication request in order to have the user log in;
-4. once logged in, the **IdP** produces an assertion that can be used by the **Idp** to validate the user's rights to the protected resource.
+4. once logged in, the **IdP** produces an assertion that can be used by the **SP** to validate the user's rights to the protected resource.
 
 In details:
 
@@ -113,15 +112,15 @@ In details:
 6. the browser issues an HTTP POST request to send the form to the **SP**'s Assertion Consumer Service.
 7. final access check to allow/deny user access to resource.
 
-![SSO scenario 2 details](./static/ssoProfileDetails_2.png)
+![SSO scenario 2 details](./static/ssoProfileDetails_2.png){.ui .image .centered}
 
 ## Security
 SAML defines some mechanism to detect and protect against man-in-the-middle attacks. The primary mechanism is for the relying party and asserting party to have a pre-existing trust relationship which typically relies on a Public Key Infrastructure (PKI).
 
 Inside SAML standard there are other mechanisms:
 
-* message integrity & confidentiality → SSL/TLS recommended
-* when relying party requests an assertion from an asserting party bi-later authentication is required → SSL/TLS recommended
+* message integrity & confidentiality → [[sslTls]] recommended
+* when relying party requests an assertion from an asserting party bi-later authentication is required → [[sslTls]] recommended
 * response message containing an assertion is delivered to relying party via a user's web browser, message integrity is required → digital sign using XML signature recommended
 
 ## Privacy
@@ -135,3 +134,9 @@ SAML ensures privacy with these mechanisms:
 * ***pseudonyms*** → established between an identity and a service provider.
 * ***one-time/transient identifiers*** → SSO operations are stateless. There is not the possibility to know the previous operations.
 * ***authentication context*** → deliver only needed information. Is like having different authentication levels that contains different information.
+
+## Implementations
+Two implementations using SAML are:
+
+* [[[spid]]]
+* [[[europeanIdentityInfrastructure]]]

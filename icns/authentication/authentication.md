@@ -9,8 +9,8 @@ tags:
 # Authentication
 Authentication is the process of verifying a user's identity. There are two reasons that require authentication:
 
-* user identity is a parameter in access control decisions
-* user identity is recorded when logging security security relevant events in an audit trial
+* user identity is a parameter in [[accessControl]] decisions
+* user identity is recorded in an audit trial when logging security relevant events
 
 When a person provide username and password through username announces who he is and through password proves that he is who he claims to be. This type of authentication is called *user authentication*. For obviously reasons password should be secretes shared only between the user and the system.
 
