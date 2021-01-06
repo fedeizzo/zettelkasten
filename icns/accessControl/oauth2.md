@@ -11,7 +11,7 @@ tags:
 ## Introduction
 Start from an use case. Consider a photo lab printing your online photos directly from Facebook:
 
-![](./static/oauthFacebook.png)
+![](./static/oauthFacebook.png){.ui .image .centered}
 
 A token is generated to give a temporary access to the facebook photos. The token is used by printing application.
 

@@ -33,6 +33,9 @@ Systems may fail due various reasons:
 * *usability* addresses problems arising from operation mistakes made by users;
 * *security* deals with intentional failures: there is at some stage a decision by a person do something he is not suppose to do.
 
+## Knowledge graph
+![](./static/icns_graph.png)
+
 [[z:zettels?tag=university/introductionComputerNetworkSecurity/**&grouped&timeline]]
 
 
