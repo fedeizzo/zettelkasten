@@ -1,7 +1,7 @@
 ---
 date: 2020-12-12T10:44
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/cryptography
   - cryptography
   - symmetric-key
 ---

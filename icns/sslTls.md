@@ -1,7 +1,7 @@
 ---
 date: 2020-12-18T15:47
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/cryptography
   - cryptography
   - asymmetric-key
   - digital-certification

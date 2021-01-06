@@ -1,7 +1,7 @@
 ---
 date: 2021-01-04T09:02
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/cryptography
   - cryptography
   - asymmetric-key
 ---

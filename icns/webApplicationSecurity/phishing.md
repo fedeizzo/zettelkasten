@@ -1,7 +1,7 @@
 ---
 date: 2020-12-29T22:10
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/webapps
   - webapps
   - attack
   - phishing

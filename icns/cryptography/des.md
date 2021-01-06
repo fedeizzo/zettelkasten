@@ -1,7 +1,7 @@
 ---
 date: 2021-01-04T15:44
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/cryptography
   - cryptography
   - symmetric-key
   - des

@@ -1,7 +1,7 @@
 ---
 date: 2020-12-27T21:05
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/webapps
   - webapps
   - attack
   - cross-site-scripting

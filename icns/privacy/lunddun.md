@@ -1,7 +1,7 @@
 ---
 date: 2021-01-01T18:53
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/privacy
   - gdpr
   - privacy
   - lunddun

@@ -1,7 +1,7 @@
 ---
 date: 2020-12-30T14:20
 tags:
-  - university/introductionComputerNetworkSecurity
+  - university/introductionComputerNetworkSecurity/privacy
   - gdpr
   - privacy
 ---
