@@ -26,9 +26,7 @@ The role-permission relation is many-to-many.
 ### Sessions
 A user can invoke multiple sessions and in each session a user can invoke any subset of roles that the user is a member of.
 
----
-
-## Core RBAC
+# Core RBAC
 ![Core RBAC](./static/coreRBAC.png){.ui .image .centered}
 
 Where:

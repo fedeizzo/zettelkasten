@@ -52,7 +52,7 @@ The structure of an *AC* is:
 
 ![AC structure](./static/acStructure.png){.ui .image .centered}
 
-When policy and model are mathematical defined an automated reasoning can be used as enforcement.
+When policy and model are mathematically defined an automated reasoning can be used as enforcement.
 
 ## AC models
 List of access control models and relative topics:

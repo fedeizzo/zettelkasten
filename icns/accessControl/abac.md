@@ -7,7 +7,7 @@ tags:
 ---
 
 # ABAC
-With a DAC or MAC the complexity grown according the subjects and objects numbers grow. For large number of subjects and objects, the number of authorizations may become very large
+With a [[dac]] or [[macACModel]] the complexity grown according the subjects and objects numbers grow. For large number of subjects and objects, the number of authorizations may become very large
 
 ![Dac mac problems](./static/dacMacProblems.png){.ui .image .centered}
 
@@ -15,7 +15,7 @@ RBAC resolves these problems using roles. The complexity goes from O(m*n) to O(m
 
 ![](./static/rbacOverDacMac.png){.ui .image .centered}
 
-But there is also a problem with RBAC, roles may not be enough for easily expressing authorization conditions.
+But there is also a problem with [[rbac]], roles may not be enough for easily expressing authorization conditions.
 
 To solve this problem **Attribute Based Access Control (ABAC)** was invented. ABAC defines authorization that express conditions on properties of both the resource and subject. The main strengths points are:
 
@@ -35,6 +35,8 @@ In ABAC subjects, objects and environment are associated with attributes and aut
 
 ## Policy
 Policies are a set of rules that govern allowable behavior within organization. They are based on the privileges of subjects, objects and environments. Typically written from the perspective of the object that needs protection and the privileges available to subjects.
+
+A language used to define policy is [[[xacml]]].
 
 ## Attributes
 Attributes are applied to different fields:

@@ -33,11 +33,11 @@ The main entities involved by OAuth 2.0 are:
 * ***Client*** → wish to access protected resources acting on owner's behalf.
 * ***Authorization server*** → generate tokens for the client and manage authentication and authorizations.
 
-![](./static/oauthEntities.png)
+![](./static/oauthEntities.png){.ui .image .centered}
 
 Token are opaque string used to grant delegated authorities. The content inside token is get by *AS* and *RS* with database lookup queries.
 
-OAuth 2.0 relies on HTTP+TLS. It is not an authentication protocol but can be used to build one. An implementation is OpenID Connect which relies on OAuth 2.0.
+OAuth 2.0 relies on HTTP+TLS([[sslTls]]). It is not an authentication protocol but can be used to build one. An implementation is OpenID Connect which relies on OAuth 2.0.
 
 Flow of the above image can be explained into these steps:
 

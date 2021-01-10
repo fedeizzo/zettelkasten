@@ -24,7 +24,7 @@ To check the *ACM* to ways are possible:
     * own it
     * can read it
     * can write it
-    * 
+
 ![ACM access control list](./static/accessControlListACM.png){.ui .image .centered}
 
 There is a vulnerability that exploit the privilege of a file using privilege escalation. A user can use another program to overwrite a file without the permission (only if the program used has the permission to do that).
@@ -45,6 +45,6 @@ All of these are granted assuming the following ACLs:
 
 So the compiler is delegated by Kenny to read its source file In and at the same tie by the OS to write the billing file Bill.
 
-TO solve this problem a different ACLs can be used:
+In order to solve this problem a different ACLs can be used:
 * Kenny → [Compiler | x] → [In | r]
 * Compiler → [Bill | w]

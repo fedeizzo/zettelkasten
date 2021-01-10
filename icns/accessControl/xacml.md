@@ -8,7 +8,7 @@ tags:
 ---
 
 # XACML
-XACML stands for extensible access control markup language. It is used to define ABAC policies for data sharing across different organizational domains (in reality it can be used to specify more than simple policies, for example decisions and requests).
+XACML stands for extensible access control markup language. It is used to define [[abac]] policies for data sharing across different organizational domains (in reality it can be used to specify more than simple policies, for example decisions and requests).
 
 The main components are:
 
