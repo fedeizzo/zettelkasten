@@ -8,4 +8,5 @@
   Some "https://fedeizzo.github.io/zettelkasten"
 , editUrl =
   Some "https://github.com/fedeizzo/zettelkasten/edit/master"
+, plugins = [ "neuronignore" ]
 }
