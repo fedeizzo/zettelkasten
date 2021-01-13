@@ -16,7 +16,7 @@ This is possible because there are functions called **one-way functions** which 
 
 The basic idea is to use two keys: one to encode and the other to decode
 
-![Asymmetric Cipher](./static/asymmetricCipher.png)
+![Asymmetric Cipher](./static/asymmetricCipher.png){.ui .image .centered}
 
 Two keys must be not related, so the knowledge of one does not involve the knowledge of other. One become public and can be viewed and used by anyone, other become private and must be store in a secure way. A this point there are two possibile scenarios:
 
@@ -25,14 +25,14 @@ Two keys must be not related, so the knowledge of one does not involve the knowl
 1. Alice encrypts some information with Bob's public key;
 2. only Bob, with his private key, can decrypt Alice's message.
 
-![Process](./static/encryptedMessage.png)
+![Process](./static/encryptedMessage.png){.ui .image .centered}
 
 #### Signed message
 
 1. Alice encrypt some plain text with her private key;
 2. Bob decrypt the message with Alice's public key. For this reason he knows that Alice sent the message (authentication[^auth]), Alice cannot deny having sent the message (non-repudiation[^non-repudiation]) and also none alters the message during the transit (integrity[^integrity]). 
 
-![Process](./static/signedMessage.png)
+![Process](./static/signedMessage.png){.ui .image .centered}
 
 ## Implementations
 
@@ -57,7 +57,7 @@ In order to mitigate the cons a digital signature can be used. A data item that 
 ## Summary
 A good summary image that reflect an use-case in real life is:
 
-![Use case](./static/useCaseAsymmetric.png)
+![Use case](./static/useCaseAsymmetric.png){.ui .image .centered}
 
 In real life hash functions are used, requirements for a hash function are:
 

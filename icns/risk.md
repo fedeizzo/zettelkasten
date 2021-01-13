@@ -1,5 +1,5 @@
 ---
-date: 2020-12-10T14:34
+date: 2021-01-13T10:43
 tags:
   - university/introductionComputerNetworkSecurity
   - risk
@@ -47,6 +47,15 @@ A circumstance or event with the potential to adversely impact over a system via
     * medical devices
     * smart vehicles
     * internet of things
+
+## Security policy
+Rules and requirements established by an organization that governs the acceptable use of its information (CIA trade) and services.
+
+## Security mechanism
+A device or a function designed to provide one or more security services usually rated in terms of strength of service and assurance of the design. In simple way: implementation of a security policy
+
+## Security service
+A capability that supports one, or more, of the security requirements (CIA trade). For example: key management, access control, authentication, etc.
 
 ## Risk evaluation
 Risk evaluation related to privacy is explained here: [[[riskEvaluation]]]
