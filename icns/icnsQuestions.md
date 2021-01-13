@@ -11,6 +11,8 @@ tags:
 * definition of CIA and one example of it
 * what is the risk-based approach to security?
 * what is a security policy and how does it relate CIA properties? What is a security mechanism?
+
+## Cryptology
 * what is a cryptosystem?
 * why key management is crucial for cryptography?
 * what does it mean for a cryptographic technique to be computationally secure?
@@ -30,6 +32,8 @@ tags:
 * what is SSL/TLS? Where is it used?
 * how does the handshake protocol of TLS works? What is the role of DH technique?
 * what are the potential security problems of TLS?
+
+## Authentication
 * what are the goals of saml?
 * what is the structure of a SAML assertion?
 * what is a SAML profile? give an example
@@ -39,6 +43,8 @@ tags:
 * what are the main security concerns underlying the deployment of SAML? What are the main mitigations measures?
 * what is SPID? What is eIDAS? Is there a relationship between the two?
 * Give an example of scenario in which eIDAS is useful
+
+## Access control
 * what is access control and what is its basic architecture
 * what is an access control matrix? ACLs? Capabilities?
 * what is DAC?
@@ -55,6 +61,8 @@ tags:
 * what is ABAC? What is ABAC policy? What are the advantages of ABAC over RBAC?
 * what is XACML? What is a XACML target, effect, condition, rule policy and policy set? What are the XACML policy combining algorithms?
 * describe the XACML architecture
+
+## Web application security
 * what is web application security?
 * for which kind of security threats found in web applications, TLS is not an adequate countermeasures?
 * which kind of attackers threaten web applications?
@@ -64,6 +72,8 @@ tags:
 * what is a Phishing attack? Give a high level description how to mount it
 * what are the main mitigation measures for injection attacks? And for CSRF attacks? And for XSS attacks? And for Phishing attacks?
 * what is the likelihood of an event? What is the impact of an event? What is the risk of an event? What is the risk matrix?
+
+## Privacy
 * define the notion of privacy. What is k-anonimity?
 * what is data protection? What is LINDDUN?
 * what is the scope of application of the GDPR? Who is the data controller? Who is the data processor? What is the Data Protection Impact Assessment? Why does the GDPR propose a risk-based to data protection?
