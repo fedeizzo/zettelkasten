@@ -113,6 +113,7 @@ The main problem is that shared key used to generate TOTP values can be stolen a
 
 ## Advanced authentication topics
 
+* [[[cie3]]]
 * [[[sso]]]
 * [[[saml]]]
 * [[[spid]]]

@@ -1,5 +1,5 @@
 ---
-date: 2020-01-13T18:06
+date: 2020-01-14T14:59
 tags:
   - university/introductionComputerNetworkSecurity/cryptography
   - cryptography
@@ -33,22 +33,17 @@ Some questions arise with the use of digital certificate:
 All these questions have one answer: **Public Key Infrastructure (PKI)**
 
 ## PKI
-A PKI is an arrangement that binds public keys with respective identities of entities. This binding is established through a process of registration and issuance of certificates at any by a **Certificate Authority (CA)**. The PKI role that assures valid and correct registration is called a **Registration Authority (RA)**, RA is responsible for accepting request for digital certificates and authenticating the entity making the request. Finally a third-party **Validation Authority (VA)** can provide an entity information on behalf of the CA.
-
-A **Certificate distribution system** is the repository for certificates and the **Certificate Revocation List (CRL)**.
-
-A **Cryptographic Practices Statement (CPS)** is a declaration of the security that the organization is implementing for all certificates issued by the CA holding the CPS.
+A PKI is an arrangement that binds public keys with respective identities of entities.
 
 ![PKI](./static/pki.png){.ui .image .centered}
 
-Another interesting definition list (==TODO== choose better version for this zettel):
+* **Certification authority CA** → third party that associates an identity with its public key and generates the certificate, signing it
+* **Registration authority RA** → responsible for accepting requests for digital certificates and authenticating the entity, assuring valid and correct registration
+* **Validation authority VA** → provide entity information on behalf of the CA. Interrogates the CRL, checks signatures, validity and distribution of certificates. Usually it's the browser role
+* **Cryptographic practices statement CPS** → telling everyone which security is implementing for issuing certificates;
+* **Certification Repository** → where the certificates are stored;
+* **Certificate Revocation List (CRL)** → where are stored all the revoked/not valid certificates.
 
-* CA: Certification Authority, third party that associates an identity with its public key and generates the certificate, signing it
-* RA: Registration Authority, responsible for accepting requests for digital certificates and authenticating the entity, assuring valid and correct registration
-* VA: Validation Authority, provide entity information on behalf of the CA. Interrogates the CRL, checks signatures, validity and distribution of certificates. Usually it's the browser role
-* CPS: Cryptographic Practices Statement, telling everyone which security is implementing for issuing certificates;
-* Certification Repository: Where the certificates are stored;
-* Certificate Revocation List (CRL): where are stored all the revoked/not valid certificates.
 ## Obtaining a certificate
 
 1. User-A generates a public and private key-pair or is assigned by some authority in their organization;
@@ -62,3 +57,6 @@ Another interesting definition list (==TODO== choose better version for this zet
 ![PKI](./static/obtainingCertificate.png){.ui .image .centered}
 
 ![PKI](./static/obtainingCertificate2.png){.ui .image .centered}
+
+## Usage
+Digital certificates are used in [[[sslTls]]] and [[[cie3]]]

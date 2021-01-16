@@ -84,7 +84,7 @@ In each page there are three sections corresponding to three categories:
 * Middle
 * Advanced
 
-![](./static/acWebAppSec.png)
+![](./static/acWebAppSec.png){.ui .image .centered}
 
 Users can subscribe to one or more topics and can choose the category.
 
@@ -94,7 +94,7 @@ User subscribed to Advanced can see everything.
 
 A good RBAC scheme is:
 
-![](./static/rbacWebSec.png)
+![](./static/rbacWebSec.png){.ui .image .centered}
 
 And UA (user-role assignment) table is:
 
