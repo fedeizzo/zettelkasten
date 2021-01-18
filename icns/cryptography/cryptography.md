@@ -63,7 +63,7 @@ There are two main types of transformations:
 ### Substitutions ciphers
 A substitution cipher substitutes one symbol for another according to a fixed system
 
-![Substitution ciphers](./static/substitutionCiphers.png)
+![Substitution ciphers](./static/substitutionCiphers.png){.ui .image .centered}
 
 An example could be **Caesar cipher** in which every character is replaced with the character, e.g., three slots to the right. In this case the key become the number of shift.
 This type of cipher is called $ROT_k$ and can be expressed like two simple equations:
@@ -78,7 +78,7 @@ There are two ways to break this cipher. The first one is a *brute force attack*
 ### Transposition cipher
 A transposition cipher scrambles the symbols to produce output. The key become the permutation of symbols
 
-![Transposition cipher](./static/transpositionCiphers.png)
+![Transposition cipher](./static/transpositionCiphers.png){.ui .image .centered}
 
 An example of this type of cipher is **columnar cipher**, the steps are:
 
@@ -87,7 +87,7 @@ An example of this type of cipher is **columnar cipher**, the steps are:
 
 Both width of rows and columns are usually selected by a keyword.
 
-![Columnar cipher](./static/columnarCipher.png)
+![Columnar cipher](./static/columnarCipher.png){.ui .image .centered}
 
 ## Modern cryptography
 Modern cryptography is based on bit (not letter like classic one). New process depends on algorithm:
