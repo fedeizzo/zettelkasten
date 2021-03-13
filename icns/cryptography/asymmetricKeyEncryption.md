@@ -36,8 +36,8 @@ Two keys must be not related, so the knowledge of one does not involve the knowl
 
 ## Implementations
 
-* [[[rsa]]]
-* [[[dh]]]
+* [[rsa]]#
+* [[dh]]#
 
 ## Pros and cons
 Principal pros of Public Key Crypto are:
@@ -74,9 +74,9 @@ An example could be:
 * **VERIFICATION** → anytime is possible to recompute $h(x)$ and check the result with the result stored in a secure place, if the outputs are different something was compromised
 
 ## Usage
-A real usage example of asymmetric key encryption is [[[digitalCertificate]]]
+A real usage example of asymmetric key encryption is [[digitalCertificate]]#
 
-[^auth]: you can read more about authentication in [[[ciaTrade]]] and [[[authentication]]]
-[^non-repudiation]: you can read more about non-repudiation in [[[ciaTrade]]]
-[^integrity]: you can read more about integrity in [[[ciaTrade]]]
-[^digitalCert]: you can read more about digital certificates in [[[sslTls]]]
+[^auth]: you can read more about authentication in [[ciaTrade]]# and [[authentication]]#
+[^non-repudiation]: you can read more about non-repudiation in [[ciaTrade]]#
+[^integrity]: you can read more about integrity in [[ciaTrade]]#
+[^digitalCert]: you can read more about digital certificates in [[sslTls]]#

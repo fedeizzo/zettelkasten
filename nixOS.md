@@ -7,5 +7,5 @@ tags:
 # NixOS
 NixOS is GNU/Linux distribution
 
-* [[[nixFlake]]]
-* [[[nixOverlays]]]
+* [[nixFlake]]#
+* [[nixOverlays]]#

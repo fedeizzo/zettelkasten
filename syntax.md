@@ -7,14 +7,14 @@ Tutorial on github markdown can found here:
 
 * [CommonMark](https://commonmark.org/)
 * [GFM](https://github.github.com/gfm/)
-* [[[commonmarkExtension]]][^conExt]
+* [[commonmarkExtension]]#[^conExt]
 
 ## Link
 There are three types of links:
 
 * __markdown link__ → `[text](link)`
 * __zettel link__ → `[[zettelId]]`
-* __zettel branching link__ → `[[[zettelId]]]`
+* __zettel branching link__ → `[[zettelId]]#`
 
 ### Link queries
 [[linkQueries]] are more powerful link options
@@ -37,7 +37,7 @@ tags:
 or can be used putting a `#` before the tag during the text
 
 ### Metadata
-[[[metadata]]]
+[[metadata]]#
 
 
 ### Math

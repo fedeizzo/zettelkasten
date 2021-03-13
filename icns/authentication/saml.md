@@ -138,5 +138,5 @@ SAML ensures privacy with these mechanisms:
 ## Implementations
 Two implementations using SAML are:
 
-* [[[spid]]]
-* [[[europeanIdentityInfrastructure]]]
+* [[spid]]#
+* [[europeanIdentityInfrastructure]]#

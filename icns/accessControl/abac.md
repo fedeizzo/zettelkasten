@@ -36,7 +36,7 @@ In ABAC subjects, objects and environment are associated with attributes and aut
 ## Policy
 Policies are a set of rules that govern allowable behavior within organization. They are based on the privileges of subjects, objects and environments. Typically written from the perspective of the object that needs protection and the privileges available to subjects.
 
-A language used to define policy is [[[xacml]]].
+A language used to define policy is [[xacml]]#.
 
 ## Attributes
 Attributes are applied to different fields:

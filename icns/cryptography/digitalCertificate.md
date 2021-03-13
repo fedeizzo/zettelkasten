@@ -59,4 +59,4 @@ A PKI is an arrangement that binds public keys with respective identities of ent
 ![PKI](./static/obtainingCertificate2.png){.ui .image .centered}
 
 ## Usage
-Digital certificates are used in [[[sslTls]]] and [[[cie3]]]
+Digital certificates are used in [[sslTls]]# and [[cie3]]#

@@ -33,7 +33,7 @@ There are multiples possible implementations:
 * ***Counter*** → identifiers are substituted by a number chose by a monotonic counter. A seed s is set to 0 and then it is incremented. Values produced by counter never repeated to prevent ambiguity. It is very simple but can suggest the dataset order.
 * ***Pseudo Random Number Generator*** → improvement of counter technique, it is more difficult to implement but there is not sequential issue. 
 * ***Cryptographic Hash Function*** → the digest of the identifier is the pseudonym. It is considered inadequate for pseudonymisation as it is prone to brute force and dictionary attacks.
-* [[[cryptography]]] or ***Encryption*** → usually block ciphers like the AES[^AES]. They are used to encrypt an identifier using a secret key, which is both the pseudonymisation and recovery secret.
+* [[cryptography]]# or ***Encryption*** → usually block ciphers like the AES[^AES]. They are used to encrypt an identifier using a secret key, which is both the pseudonymisation and recovery secret.
 
 ## SAML privacy
 [[saml]] supports privacy thought persistent pseudonyms established between an identity and a service provider and one-time or transient identifiers that ensure a stateless concept like http[^http]. These two features are available thanks to an individual local and federated user identities shared between participants.
@@ -54,5 +54,5 @@ The main difference between Persistent and Transient is that in Persistent the N
 
 These SAML feature do not ensure privacy inside Identity Provider, for it pseudonyms must be used also internally of the IdP.
 
-[^AES]: more on AES [[[symmetricKeyEncryption]]]
+[^AES]: more on AES [[symmetricKeyEncryption]]#
 [^http]: more on stateless http on [[webFundamentals]]

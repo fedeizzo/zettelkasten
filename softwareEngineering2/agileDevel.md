@@ -90,8 +90,8 @@ An EPIC is a high-level body of work that bands together with a group of related
 
 Examples of agile development are:
 
-* [[[scrumDevel]]]
-* [[[kanbanDevel]]]
+* [[scrumDevel]]#
+* [[kanbanDevel]]#
 * Scrumban → a scrum with:
     * visualization
     * WIP limit

@@ -7,10 +7,10 @@ tags:
 # Software engineering 2 
 Main concepts:
 
-* [[[designThinking]]]
-* [[[webFundamentals]]]
-* [[[agileDevel]]]
-* [[[test]]]
-* [[[mongoDb]]]
+* [[designThinking]]#
+* [[webFundamentals]]#
+* [[agileDevel]]#
+* [[test]]#
+* [[mongoDb]]#
 
 [[z:zettels?tag=university/softwarengineering2/**&grouped&timeline]]

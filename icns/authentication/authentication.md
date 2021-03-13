@@ -41,7 +41,7 @@ Main mitigations are:
 * use mutual authentication: user authenticated to the system, system authenticated to the user
 
 ### Phising
-[[[phishing]]]
+[[phishing]]#
 
 ## Password hashing and salting
 A hash function is a 1-way function f that is relatively east to compute bu hard to reverse. Instead of storing plain password, value of f(x) is stored in the passwords files, when a user try to login the system compute the hash in order to avoid storing password in clear inside the file.
@@ -113,8 +113,8 @@ The main problem is that shared key used to generate TOTP values can be stolen a
 
 ## Advanced authentication topics
 
-* [[[cie3]]]
-* [[[sso]]]
-* [[[saml]]]
-* [[[spid]]]
-* [[[europeanIdentityInfrastructure]]]
+* [[cie3]]#
+* [[sso]]#
+* [[saml]]#
+* [[spid]]#
+* [[europeanIdentityInfrastructure]]#

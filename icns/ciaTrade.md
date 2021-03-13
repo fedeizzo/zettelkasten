@@ -41,4 +41,4 @@ A capability that supports one or more of the security requirements.
 ---
 Related arguments:
 
-* [[[risk]]]
+* [[risk]]#

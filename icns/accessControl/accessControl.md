@@ -57,9 +57,9 @@ When policy and model are mathematically defined an automated reasoning can be u
 ## AC models
 List of access control models and relative topics:
 
-* [[[acm]]]
-* [[[dac]]]
-* [[[macACModel]]]
-* [[[rbac]]]
-* [[[abac]]]
-* [[[xacml]]]
+* [[acm]]#
+* [[dac]]#
+* [[macACModel]]#
+* [[rbac]]#
+* [[abac]]#
+* [[xacml]]#

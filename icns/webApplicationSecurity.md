@@ -44,8 +44,8 @@ The main goals are:
 ## Attacks
 Here are listed some known attacks:
 
-* [[[injection]]]
-* [[[crossSiteScripting]]]
+* [[injection]]#
+* [[crossSiteScripting]]#
 * **Cross Site Request Forgery (CSRF)** → send a victim with a specially-crafted URL that contains a malicious request for a target site. Attacker relies on cookie existence and through malicious URL trap user into doing something he does not aspect. The main mitigations are:
     * check every URLs before open them (user persecutive)
     * implement some challenge-response o high-value function, like CAPTCHA (programmer perspective)
@@ -64,7 +64,7 @@ Here are listed some known attacks:
     * use *HttpOnly* attribute to prevent scripts from accessing the cookies
     * use *X-XSS-Protection* header to allow browsers to detect XSS attacks
     * use *Content-Security-Policy* headers to instruct browsers to only load resources whitelisted locations 
-* [[[phishing]]]
+* [[phishing]]#
 
 ## Access control
 Also access control is very important for web apps security. In 2017 a data breach of Equifax exposes personal information of 146.6 million of Americans.

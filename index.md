@@ -27,10 +27,10 @@ Social:
 
 My personal notes taken with Zettelkasten:
 
-* [[[icns]]]
-* [[[nixOS]]]
-* [[[softwareEngineering2]]]
-* [[[zettelsTodo]]]
+* [[icns]]#
+* [[nixOS]]#
+* [[softwareEngineering2]]#
+* [[zettelsTodo]]#
 
 ## Syntax
-Neuron zettel uses markdown github flavour with some special things [[[syntax]]]
+Neuron zettel uses markdown github flavour with some special things [[syntax]]#

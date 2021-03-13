@@ -96,4 +96,4 @@ Modern cryptography is based on bit (not letter like classic one). New process d
 * block encryption;
 * public-key encryption.
 
-Stream and block encryption are based on [[[symmetricKeyEncryption]]], instead public-key encryption is based on [[[asymmetricKeyEncryption]]]
+Stream and block encryption are based on [[symmetricKeyEncryption]]#, instead public-key encryption is based on [[asymmetricKeyEncryption]]#
