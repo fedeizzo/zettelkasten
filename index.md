@@ -30,6 +30,7 @@ My personal notes taken with Zettelkasten:
 * [[icns]]#
 * [[nixOS]]#
 * [[softwareEngineering2]]#
+* [[haskell]]#
 * [[zettelsTodo]]#
 
 ## Syntax
