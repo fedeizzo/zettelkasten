@@ -31,6 +31,7 @@ My personal notes taken with Zettelkasten:
 * [[nixOS]]#
 * [[softwareEngineering2]]#
 * [[haskell]]#
+* [[python]]#
 * [[zettelsTodo]]#
 
 ## Syntax
