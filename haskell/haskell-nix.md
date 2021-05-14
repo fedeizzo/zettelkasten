@@ -25,6 +25,14 @@ in
 
 now, with nix-build, there is the possibility to compile the project.
 
+There is also the possibility to define default.nix as follow:
+
+```nix
+(import <nixpkgs> { }).haskellPackages.callCabal2nix "my-taffybar" ./. { }
+```
+
+In this way user do not need to call command on point 2 every time they modify cabal file.
+
 ### Dev shell and lorri
 To run dev shell: `nix-shell --attr env release.nix`
 
