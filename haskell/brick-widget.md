@@ -5,6 +5,7 @@ tags:
   - ui
   - tui
   - widget
+  - haskell/exploration
 ---
 
 # Widget

@@ -25,14 +25,16 @@ Social:
 
 ## Notes
 
-My personal notes taken with Zettelkasten:
+### Regular notes
+Regular notes are "traditional" notes, mainly written for university courses.
 
 * [[icns]]#
-* [[nixOS]]#
 * [[softwareEngineering2]]#
+
+### Diary notes
+This type of notes follow a well defined structure: [[codeDiary]]#
+
+* [[nixOS]]#
 * [[haskell]]#
 * [[python]]#
 * [[zettelsTodo]]#
-
-## Syntax
-Neuron zettel uses markdown github flavour with some special things [[syntax]]#

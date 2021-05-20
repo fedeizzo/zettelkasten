@@ -3,6 +3,7 @@ date: 2020-12-09T21:35
 tags:
   - linux/nixos
   - overlays
+  - nixos/bestpractice
 ---
 
 # Overlays

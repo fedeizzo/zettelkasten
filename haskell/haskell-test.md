@@ -2,6 +2,7 @@
 date: 2021-03-21T14:41
 tags:
   - haskell/test
+  - haskell/howto
 ---
 
 # Test

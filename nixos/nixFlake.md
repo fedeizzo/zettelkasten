@@ -3,6 +3,7 @@ date: 2020-12-09T19:17
 tags:
   - linux/nixos
   - flake
+  - nixos/exploration
 ---
 
 # Flake

@@ -3,6 +3,8 @@ date: 2021-03-13T17:22
 tags:
   - haskell/nix
   - haskell/cabal
+  - haskell/howto
+  - linux/nixos
 ---
 
 # Nix

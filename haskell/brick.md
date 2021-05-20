@@ -4,6 +4,7 @@ tags:
   - haskell/library/brick
   - ui
   - tui
+  - haskell/exploration
 ---
 
 # Brick
